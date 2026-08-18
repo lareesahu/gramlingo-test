@@ -5,9 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>GramLingo 语法课件 · 全部 12 个模块</title>
 <style>
+/* GramLingo locked typography (self-hosted, no CDN) */
+@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
+@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
+@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;src:url('assets/fonts/dmsans-400.woff2') format('woff2');}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;src:url('assets/fonts/dmsans-500.woff2') format('woff2');}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;src:url('assets/fonts/dmsans-600.woff2') format('woff2');}
+@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;src:url('assets/fonts/dmsans-700.woff2') format('woff2');}
 :root{--ink:#1b2420;--ink2:#5b6b62;--line:#e6ebe7;--bg:#fbfcfa;--card:#fff;--accent:#6aa72e;}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
+body,html{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+h1,h2,h3,.t,.kicker,.cover h1,.num,.go{font-family:'Baloo 2','Baloo 2 Fallback','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
+.logo-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
+.logo{height:clamp(34px,5.5vw,50px);width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}
+.logo+.kicker{margin-bottom:0}
 .wrap{max-width:1000px;margin:0 auto;padding:0 clamp(14px,4vw,28px)}
 .cover{background:linear-gradient(135deg,#4e9f2f,#2f6b1e);color:#fff;border-radius:0 0 28px 28px;padding:clamp(36px,7vw,64px) 0 40px}
 .kicker{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:14px;font-weight:600}
@@ -23,32 +36,6 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC
 .go{margin-top:12px;font-size:12.5px;font-weight:700;color:var(--a)}
 footer{border-top:1px solid var(--line);padding:24px 0 40px;font-size:12.5px;color:var(--ink2);text-align:center}
 footer a{color:#4e9f2f;text-decoration:none;font-weight:600}
-/* GramLingo locked typography (self-hosted, no CDN) */
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;src:url('assets/fonts/dmsans-400.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;src:url('assets/fonts/dmsans-400.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;src:url('assets/fonts/dmsans-500.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;src:url('assets/fonts/dmsans-500.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;src:url('assets/fonts/dmsans-600.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;src:url('assets/fonts/dmsans-600.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;src:url('assets/fonts/dmsans-700.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;src:url('assets/fonts/dmsans-700.woff2') format('woff2');}
-body,html{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
-h1,h2,h3,.t,.kicker,.phase-head h2,.cover h1,.cover .kicker,.num,.go,.card h3{font-family:'Baloo 2','Baloo 2 Fallback','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
-.logo-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.logo{height:clamp(34px,5.5vw,50px);width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}
-.logo+.kicker{margin-bottom:0}
 </style>
 </head>
 <body>
