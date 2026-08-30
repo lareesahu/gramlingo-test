@@ -1,125 +1,140 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>GramLingo 语法课件 · 全部 12 个模块</title>
-<style>
-/* GramLingo locked typography (self-hosted, no CDN) */
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:600;src:url('assets/fonts/baloo2-600.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:700;src:url('assets/fonts/baloo2-700.woff2') format('woff2');}
-@font-face{font-family:'Baloo 2';font-style:normal;font-weight:800;src:url('assets/fonts/baloo2-800.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:400;src:url('assets/fonts/dmsans-400.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:500;src:url('assets/fonts/dmsans-500.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:600;src:url('assets/fonts/dmsans-600.woff2') format('woff2');}
-@font-face{font-family:'DM Sans';font-style:normal;font-weight:700;src:url('assets/fonts/dmsans-700.woff2') format('woff2');}
-:root{--ink:#1b2420;--ink2:#5b6b62;--line:#e6ebe7;--bg:#fbfcfa;--card:#fff;--accent:#6aa72e;}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","Noto Sans CJK SC",sans-serif;background:var(--bg);color:var(--ink);line-height:1.7}
-body,html{font-family:'DM Sans',-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
-h1,h2,h3,.t,.kicker,.cover h1,.num,.go{font-family:'Baloo 2','Baloo 2 Fallback','PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans CJK SC',sans-serif}
-.logo-row{display:flex;align-items:center;gap:12px;margin-bottom:16px}
-.logo{height:clamp(34px,5.5vw,50px);width:auto;display:block;filter:drop-shadow(0 2px 6px rgba(0,0,0,.25))}
-.logo+.kicker{margin-bottom:0}
-.wrap{max-width:1000px;margin:0 auto;padding:0 clamp(14px,4vw,28px)}
-.cover{background:linear-gradient(135deg,#4e9f2f,#2f6b1e);color:#fff;border-radius:0 0 28px 28px;padding:clamp(36px,7vw,64px) 0 40px}
-.kicker{font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;opacity:.85;margin-bottom:14px;font-weight:600}
-.cover h1{font-size:clamp(26px,5vw,40px);font-weight:800}
-.cover .sub{margin-top:12px;max-width:620px;opacity:.92;font-size:clamp(14px,2.4vw,16px)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px;padding:clamp(24px,5vw,40px) 0 24px}
-.card{--a:var(--accent);display:block;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;text-decoration:none;color:var(--ink);box-shadow:0 1px 2px rgba(20,40,20,.05),0 8px 24px rgba(20,40,20,.05);transition:.15s}
-.card:hover{transform:translateY(-2px);border-color:var(--a);box-shadow:0 10px 30px rgba(20,40,20,.10)}
-.num{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--a);font-weight:700;margin-bottom:8px}
-.t{font-size:17px;font-weight:800;line-height:1.3}
-.t .zh{color:var(--ink2);font-weight:600;font-size:14px;margin-left:4px}
-.d{margin-top:8px;font-size:13px;color:var(--ink2);min-height:36px}
-.go{margin-top:12px;font-size:12.5px;font-weight:700;color:var(--a)}
-footer{border-top:1px solid var(--line);padding:24px 0 40px;font-size:12.5px;color:var(--ink2);text-align:center}
-footer a{color:#4e9f2f;text-decoration:none;font-weight:600}
-</style>
+<title>Grammar lessons / 语法课件 · GramLingo</title>
+<link rel="stylesheet" href="lessons.css">
 </head>
-<body>
+<body class="hub">
 <header class="cover">
   <div class="wrap">
-    <div class="logo-row"><img class="logo" src="assets/gramlingo-logo.png" alt="GramLingo" width="220" height="56"></div>
-    <div class="kicker">GramLingo · 12 Modules · 92 Lessons</div>
-    <h1>语法课件目录</h1>
-    <div class="sub">GramLingo 全部 12 个语法模块的教材式课件，双语（English + 中文），每节包含概念、规则、例句、常见错误与课堂练习。</div>
+    <div class="kicker">GramLingo · 12 modules · 92 lessons / 12 个模块 · 92 节课</div>
+    <h1>Grammar lessons <span class="zh">语法课件目录</span></h1>
+    <div class="sub">Build clear grammar intuition through short explanations, examples, common mistakes, and practice.<br><span class="zh">用简短讲解、例句、常见错误与练习，建立清晰的语法直觉。</span></div>
   </div>
 </header>
 <main class="wrap"><div class="grid">
-      <a class="card" style="--accent:#2F9E44" href="clauses.html">
-        <div class="num">Module 01 · 8 节</div>
-        <div class="t">🔗 Relative Clauses <span class="zh">定语从句</span></div>
-        <div class="d">Describe people, things, places, times, and reasons with precise connected sentences.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="clauses.html">
+        <img src="assets/covers/cover-clauses.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 01 / 8 lessons</div>
+          <h2>🔗 Relative Clauses</h2>
+          <span class="zh">定语从句</span>
+          <p>Describe people, things, places, times, and reasons with precise connected sentences.</p>
+          <p class="zh">用精确的连缀句描述人、事物、地点、时间与原因。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#1971C2" href="prepositions.html">
-        <div class="num">Module 02 · 4 节</div>
-        <div class="t">📍 Prepositions <span class="zh">介词</span></div>
-        <div class="d">Build reliable intuition for place, time, movement, and common preposition patterns.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="prepositions.html">
+        <img src="assets/covers/cover-prepositions.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 02 / 4 lessons</div>
+          <h2>📍 Prepositions</h2>
+          <span class="zh">介词</span>
+          <p>Build reliable intuition for place, time, movement, and common preposition patterns.</p>
+          <p class="zh">建立地点、时间、运动方向与常用搭配的可靠直觉。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#E8590C" href="tenses.html">
-        <div class="num">Module 03 · 8 节</div>
-        <div class="t">⏱️ Verb Tenses <span class="zh">动词时态</span></div>
-        <div class="d">Choose verb forms by timeline, duration, completion, and present relevance.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="tenses.html">
+        <img src="assets/covers/cover-tenses.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 03 / 8 lessons</div>
+          <h2>⏱️ Verb Tenses</h2>
+          <span class="zh">动词时态</span>
+          <p>Choose verb forms by timeline, duration, completion, and present relevance.</p>
+          <p class="zh">根据时间线、持续、完成与当下的关联选择动词形式。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#9C36B5" href="conditionals.html">
-        <div class="num">Module 04 · 8 节</div>
-        <div class="t">🔀 Conditionals <span class="zh">条件句</span></div>
-        <div class="d">Express facts, possibilities, imagined situations, regrets, and conditions.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="conditionals.html">
+        <img src="assets/covers/cover-conditionals.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 04 / 8 lessons</div>
+          <h2>🔀 Conditionals</h2>
+          <span class="zh">条件句</span>
+          <p>Express facts, possibilities, imagined situations, regrets, and conditions.</p>
+          <p class="zh">表达事实、可能性、想象情境、遗憾与条件。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#0B7285" href="passive.html">
-        <div class="num">Module 05 · 8 节</div>
-        <div class="t">🔄 Passive Voice <span class="zh">被动语态</span></div>
-        <div class="d">Shift focus between the doer, the action, and the result across timelines.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="passive.html">
+        <img src="assets/covers/cover-passive.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 05 / 8 lessons</div>
+          <h2>🔄 Passive Voice</h2>
+          <span class="zh">被动语态</span>
+          <p>Shift focus between the doer, the action, and the result across timelines.</p>
+          <p class="zh">在施动者、动作与结果之间转换焦点。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#E03131" href="reported.html">
-        <div class="num">Module 06 · 8 节</div>
-        <div class="t">🗣️ Reported Speech <span class="zh">间接引语</span></div>
-        <div class="d">Retell statements, questions, requests, and ideas accurately and naturally.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="reported.html">
+        <img src="assets/covers/cover-reported.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 06 / 8 lessons</div>
+          <h2>🗣️ Reported Speech</h2>
+          <span class="zh">间接引语</span>
+          <p>Retell statements, questions, requests, and ideas accurately and naturally.</p>
+          <p class="zh">准确自然地转述陈述、疑问、请求与想法。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#F08C00" href="modals.html">
-        <div class="num">Module 07 · 8 节</div>
-        <div class="t">🎯 Modals <span class="zh">情态动词</span></div>
-        <div class="d">Express ability, permission, advice, obligation, probability, and deduction.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="modals.html">
+        <img src="assets/covers/cover-modals.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 07 / 8 lessons</div>
+          <h2>🎯 Modals</h2>
+          <span class="zh">情态动词</span>
+          <p>Express ability, permission, advice, obligation, probability, and deduction.</p>
+          <p class="zh">表达能力、许可、建议、义务、可能性与推断。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#6741D9" href="determiners.html">
-        <div class="num">Module 08 · 8 节</div>
-        <div class="t">🏷️ Articles &amp; Determiners <span class="zh">冠词与限定词</span></div>
-        <div class="d">Signal whether nouns are known, specific, general, countable, or quantified.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="determiners.html">
+        <img src="assets/covers/cover-determiners.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 08 / 8 lessons</div>
+          <h2>🏷️ Articles &amp; Determiners</h2>
+          <span class="zh">冠词与限定词</span>
+          <p>Signal whether nouns are known, specific, general, countable, or quantified.</p>
+          <p class="zh">标示名词是已知、特指、泛指、可数还是量化。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#2B8A3E" href="conjunctions.html">
-        <div class="num">Module 09 · 8 节</div>
-        <div class="t">🔌 Conjunctions <span class="zh">连词</span></div>
-        <div class="d">Connect ideas by addition, contrast, cause, result, condition, and concession.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="conjunctions.html">
+        <img src="assets/covers/cover-conjunctions.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 09 / 8 lessons</div>
+          <h2>🔌 Conjunctions</h2>
+          <span class="zh">连词</span>
+          <p>Connect ideas by addition, contrast, cause, result, condition, and concession.</p>
+          <p class="zh">用并列、对比、因果、结果、条件与让步的方式连接观点。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#5C940D" href="verb_patterns.html">
-        <div class="num">Module 10 · 8 节</div>
-        <div class="t">🧩 Verb Patterns <span class="zh">动词搭配</span></div>
-        <div class="d">Control gerunds, infinitives, causatives, and meaning-changing verb patterns.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="verb_patterns.html">
+        <img src="assets/covers/cover-verb_patterns.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 10 / 8 lessons</div>
+          <h2>🧩 Verb Patterns</h2>
+          <span class="zh">动词搭配</span>
+          <p>Control gerunds, infinitives, causatives, and meaning-changing verb patterns.</p>
+          <p class="zh">掌握动名词、不定式、使役结构和会改变含义的动词搭配。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#364FC7" href="sentence_structure.html">
-        <div class="num">Module 11 · 8 节</div>
-        <div class="t">🏗️ Sentence Structure <span class="zh">句子结构</span></div>
-        <div class="d">Build, question, negate, combine, and repair complete English sentences.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="sentence_structure.html">
+        <img src="assets/covers/cover-sentence_structure.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 11 / 8 lessons</div>
+          <h2>🏗️ Sentence Structure</h2>
+          <span class="zh">句子结构</span>
+          <p>Build, question, negate, combine, and repair complete English sentences.</p>
+          <p class="zh">构建、提问、否定、合并并修复完整的英语句子。</p>
+        </div>
       </a>
-      <a class="card" style="--accent:#A61E4D" href="advanced.html">
-        <div class="num">Module 12 · 8 节</div>
-        <div class="t">🚀 Advanced Expressions <span class="zh">高级表达</span></div>
-        <div class="d">Use emphasis, inversion, register, compression, and idiomatic grammar in context.</div>
-        <div class="go">打开课件 →</div>
+      <a class="module-card" href="advanced.html">
+        <img src="assets/covers/cover-advanced.jpg" alt="" loading="lazy">
+        <div class="module-card-body">
+          <div class="num">Module 12 / 8 lessons</div>
+          <h2>🚀 Advanced Expressions</h2>
+          <span class="zh">高级表达</span>
+          <p>Use emphasis, inversion, register, compression, and idiomatic grammar in context.</p>
+          <p class="zh">在语境中运用强调、倒装、语域、省略与地道语法。</p>
+        </div>
       </a></div></main>
-<footer>Built with care by <a href="https://pulsebranding.com">Pulse Branding</a></footer>
+<footer>Learn by playing at <a href="https://app.gramlingo.online">app.gramlingo.online</a> · Built with care by <a href="https://pulsebranding.com">Pulse Branding</a></footer>
 </body>
 </html>
