@@ -7,6 +7,13 @@
 <link rel="stylesheet" href="lessons.css">
 </head>
 <body class="hub">
+<nav class="lesson-nav" aria-label="Primary navigation">
+  <a class="lesson-brand" href="index.html"><img src="assets/gramlingo-logo.png" alt="GramLingo"></a>
+  <div class="lesson-nav-links">
+    <a class="lesson-nav-link lesson-nav-link--active" href="index.html">Lessons / 课件</a>
+    <a class="lesson-nav-link" href="https://app.gramlingo.online">Start learning / 开始学习</a>
+  </div>
+</nav>
 <header class="cover">
   <div class="wrap">
     <div class="kicker">GramLingo · 12 modules · 92 lessons / 12 个模块 · 92 节课</div>
@@ -14,9 +21,9 @@
     <div class="sub">Build clear grammar intuition through short explanations, examples, common mistakes, and practice.<br><span class="zh">用简短讲解、例句、常见错误与练习，建立清晰的语法直觉。</span></div>
   </div>
 </header>
-<main class="wrap"><div class="grid">
+<main><section class="module-gallery-section"><h2 class="section-heading">Choose a grammar world / 选择语法世界</h2><p class="section-sub">Short, visual lessons that make grammar stick. / 简短、直观，让语法真正留下来。</p><div class="gallery-wrap"><button class="gallery-arrow gallery-arrow--left" type="button" aria-label="Scroll left" onclick="document.querySelector('.module-gallery').scrollBy({left:-320,behavior:'smooth'})">‹</button><div class="module-gallery">
       <a class="module-card" href="clauses.html">
-        <img src="assets/covers/cover-clauses.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-clauses.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 01 / 8 lessons</div>
           <h2>🔗 Relative Clauses</h2>
@@ -26,7 +33,7 @@
         </div>
       </a>
       <a class="module-card" href="prepositions.html">
-        <img src="assets/covers/cover-prepositions.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-prepositions.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 02 / 4 lessons</div>
           <h2>📍 Prepositions</h2>
@@ -36,7 +43,7 @@
         </div>
       </a>
       <a class="module-card" href="tenses.html">
-        <img src="assets/covers/cover-tenses.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-tenses.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 03 / 8 lessons</div>
           <h2>⏱️ Verb Tenses</h2>
@@ -46,7 +53,7 @@
         </div>
       </a>
       <a class="module-card" href="conditionals.html">
-        <img src="assets/covers/cover-conditionals.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-conditionals.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 04 / 8 lessons</div>
           <h2>🔀 Conditionals</h2>
@@ -56,7 +63,7 @@
         </div>
       </a>
       <a class="module-card" href="passive.html">
-        <img src="assets/covers/cover-passive.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-passive.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 05 / 8 lessons</div>
           <h2>🔄 Passive Voice</h2>
@@ -66,7 +73,7 @@
         </div>
       </a>
       <a class="module-card" href="reported.html">
-        <img src="assets/covers/cover-reported.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-reported.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 06 / 8 lessons</div>
           <h2>🗣️ Reported Speech</h2>
@@ -76,7 +83,7 @@
         </div>
       </a>
       <a class="module-card" href="modals.html">
-        <img src="assets/covers/cover-modals.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-modals.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 07 / 8 lessons</div>
           <h2>🎯 Modals</h2>
@@ -86,7 +93,7 @@
         </div>
       </a>
       <a class="module-card" href="determiners.html">
-        <img src="assets/covers/cover-determiners.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-determiners.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 08 / 8 lessons</div>
           <h2>🏷️ Articles &amp; Determiners</h2>
@@ -96,7 +103,7 @@
         </div>
       </a>
       <a class="module-card" href="conjunctions.html">
-        <img src="assets/covers/cover-conjunctions.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-conjunctions.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 09 / 8 lessons</div>
           <h2>🔌 Conjunctions</h2>
@@ -106,7 +113,7 @@
         </div>
       </a>
       <a class="module-card" href="verb_patterns.html">
-        <img src="assets/covers/cover-verb_patterns.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-verb_patterns.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 10 / 8 lessons</div>
           <h2>🧩 Verb Patterns</h2>
@@ -116,7 +123,7 @@
         </div>
       </a>
       <a class="module-card" href="sentence_structure.html">
-        <img src="assets/covers/cover-sentence_structure.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-sentence_structure.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 11 / 8 lessons</div>
           <h2>🏗️ Sentence Structure</h2>
@@ -126,7 +133,7 @@
         </div>
       </a>
       <a class="module-card" href="advanced.html">
-        <img src="assets/covers/cover-advanced.jpg" alt="" loading="lazy">
+        <div class="module-card-cover"><img src="assets/covers/cover-advanced.jpg" alt="" loading="lazy"></div>
         <div class="module-card-body">
           <div class="num">Module 12 / 8 lessons</div>
           <h2>🚀 Advanced Expressions</h2>
@@ -134,7 +141,7 @@
           <p>Use emphasis, inversion, register, compression, and idiomatic grammar in context.</p>
           <p class="zh">在语境中运用强调、倒装、语域、省略与地道语法。</p>
         </div>
-      </a></div></main>
+      </a></div><button class="gallery-arrow gallery-arrow--right" type="button" aria-label="Scroll right" onclick="document.querySelector('.module-gallery').scrollBy({left:320,behavior:'smooth'})">›</button></div></section></main>
 <footer>Learn by playing at <a href="https://app.gramlingo.online">app.gramlingo.online</a> · Built with care by <a href="https://pulsebranding.com">Pulse Branding</a></footer>
 </body>
 </html>
